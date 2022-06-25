@@ -26,7 +26,7 @@ console.html(`<div style="color:#00c040">This is a green text</div>`);
 
 Console output:
 
-<span style="font-family:Times New Roman;display:inline-block;color:#00c040">This is a green text</span>
+![Green](./assets/green.png)
 
 ---
 
@@ -41,16 +41,18 @@ You can also use the HTML "style" element to style your logs. It will basically 
     border-radius: 10px;
 }
 </style>
-console.html("<div class='niceBlue'>And this is a fancy text</div>");
+<script>
+    console.html("<div class='niceBlue'>And this is a fancy text</div>");
+</script>
 ```
 
 Console output:
 
-<span style="font-family:Times New Roman;display:inline-block;border-radius: 10px; background-color: #4060ff; color: white; padding: 10px;">And this is a fancy text</span>
+![Blue](./assets/blue.png)
 
 ---
 
-But also this works:
+Instead of using a string, you can also use an Element object:
 
 ```js
 const element = document.createElement("div");
@@ -63,7 +65,7 @@ console.html(element);
 
 Console output:
 
-<span style="display:inline-block; background-color:#ffff00; color:black; font-size:24px;">Y'ello!</span>
+![Yellow](./assets/yellow.png)
 
 ---
 
