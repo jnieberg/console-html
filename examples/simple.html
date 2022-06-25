@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      div {
+        color: black;
+      }
+      .bluePadding {
+        color: white;
+        border-radius: 10px;
+        background-color: #4060ff;
+        padding: 10px;
+      }
+    </style>
+    <script src="../console-html.js"></script>
+    <title>Console HTML example - Simple</title>
+  </head>
+  <body>
+    Show your console with F12
+  </body>
+  <script>
+    console.html("<div style='color:#00c040'>G'day green</div>");
+    console.html("<div class='bluePadding'>Bonjour Blue</div>");
+
+    const element = document.createElement("div");
+    element.style.backgroundColor = "#ffff00";
+    element.innerText = "Y'ellow!";
+    console.html(element);
+  </script>
+</html>
