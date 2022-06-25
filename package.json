@@ -1,11 +1,21 @@
 {
-  "name": "console-html",
+  "name": "console-html-css",
   "description": "Decorate your debug logs with the use of HTML and styling it with CSS, with the use of a new console.html() function",
+  "main": "index.js",
   "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jnieberg/console-html"
+    "url": "git+https://github.com/jnieberg/console-html.git"
   },
+  "keywords": [
+    "console",
+    "log",
+    "console.html",
+    "console.css",
+    "debug",
+    "css",
+    "style"
+  ],
   "author": "Jorg Nieberg",
   "license": "MIT",
   "private": false

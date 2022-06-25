@@ -1,19 +1,19 @@
-# Console HTML
+# Console HTML+CSS
 
 Decorate your debug logs with the use of HTML and styling it with CSS, with the use of a new `console.html()` function
 
 ## Install
 
 ```
-npm install console-html
+npm install console-html-css
 ```
 
 ## Setup
 
 In order to use `console.html`, add the following line in your main html:
 
-```html
-<script src="../console-html.js"></script>
+```js
+import "console-html-css";
 ```
 
 ## Examples
